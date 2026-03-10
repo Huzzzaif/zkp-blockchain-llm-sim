@@ -1,0 +1,121 @@
+# ===========================
+# PYTHON
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+pip-log.txt
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+
+# ===========================
+# RESEARCH / DATA
+# ===========================
+data/raw/
+data/processed/
+data/interim/
+data/external/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.db
+*.sqlite
+
+# Model checkpoints & weights
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# Experiment outputs
+outputs/
+results/
+logs/
+runs/
+wandb/
+mlruns/
+.neptune/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lot
+*.lof
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+_minted*/
+
+# ===========================
+# SIMULATION (SimPy)
+# ===========================
+sim_outputs/
+*.sim
+
+# ===========================
+# SECRETS / CONFIG
+# ===========================
+.env
+.env.*
+secrets.yaml
+secrets.json
+config/local_*.yaml
+*.pem
+*.key
+
+# ===========================
+# OS / EDITOR
+# ===========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===========================
+# ZKP_LLM PROJECT SPECIFIC
+# ===========================
+zkp_env/
+alpha_sweep_results.json
+simulation_results.json
+mtsamples.csv
